@@ -168,11 +168,18 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+
+	.caption {
+		font-size: 0.9em;
+		text-align: center;
+		margin: 0 0 0 0;
+		}	
+
 	h1 {
 		font-size: 2.75em;
 		font-weight: 700;
 		line-height: 1.3;
-		margin: 0 0 1em 0;
+		margin: 0 0 0.4em 0;
 		letter-spacing: -0.035em;
 	}
 
@@ -200,9 +207,9 @@ input, select, textarea {
 	h2, h3, h4, h5, h6 {
 		font-weight: 900;
 		line-height: 1.5;
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 		text-transform: uppercase;
-		letter-spacing: 0.35em;
+		letter-spacing: 0.2em;
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2327,13 +2334,14 @@ input, select, textarea {
 			display: block;
 		}
 
-		.image.left, .image.right {
+		.image.left, .image.right, {
 			max-width: 40%;
 		}
 
 			.image.left img, .image.right img {
-				width: 100%;
+				width: 80%;
 			}
+
 
 		.image.left {
 			float: left;
@@ -2346,6 +2354,11 @@ input, select, textarea {
 			padding: 0 0 1em 1.5em;
 			top: 0.25em;
 		}
+
+		
+
+
+
 
 		.image.fit {
 			display: block;
@@ -2363,10 +2376,24 @@ input, select, textarea {
 			width: 100%;
 		}
 
+
+		
 			.image.main img {
 				width: 100%;
 			}
 
+		.image.little {
+				display: block;
+				margin: 0 0 3em 0;
+				width: 50%;
+			}
+	
+			.image.little img {
+				width: 50%;
+			}
+
+		
+			
 			@media screen and (max-width: 736px) {
 
 				.image.main {
@@ -2734,6 +2761,11 @@ input, select, textarea {
 				background-color: #8499e7;
 			}
 
+			.tiles article.style7 > .image:before {
+				background-color: #a09c9d83;
+			}
+
+
 			body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.1);
 				-webkit-transform: scale(1.1);
@@ -2834,7 +2866,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 3em 0 0.1em 0 ;
 	}
 
 		#header .logo {
@@ -3334,8 +3366,4 @@ input, select, textarea {
 		}
 
 
-		caption {
-			font-size: 70%;
-			font: inherit;	
-			justify-content: center;
-			}	
+		

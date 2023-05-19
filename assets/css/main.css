@@ -1,6 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 
+
 /*
 	Phantom by HTML5 UP
 	html5up.net | @ajlkn
@@ -166,6 +167,14 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+	}
+
+
+	.ipa {
+		font-family: "Arial", "Charis SIL", "Times New Roman", monospace;
+		font-size: 0.9em;
+		font-weight: 50;
+		color: #585858;
 	}
 
 
@@ -2592,6 +2601,38 @@ input, select, textarea {
 			pointer-events: none;
 			opacity: 0.25;
 		}
+
+
+
+
+		input[type="submit"].lang,
+		input[type="reset"].lang,
+		input[type="button"].lang,
+		button.lang,
+		.button.lang {
+			box-shadow: none;
+			background-color: #8a2ea3;
+			color: #ffffff !important;
+			float: right
+		}
+
+			input[type="submit"].lang:hover,
+			input[type="reset"].lang:hover,
+			input[type="button"].lang:hover,
+			button.lang:hover,
+			.button.lang:hover {
+				background-color: #f2849e;
+			}
+
+			input[type="submit"].lang:active,
+			input[type="reset"].lang:active,
+			input[type="button"].lang:active,
+			button.lang:active,
+			.button.lang:active {
+				background-color: #ee5f81;
+			}
+
+
 
 /* Tiles */
 

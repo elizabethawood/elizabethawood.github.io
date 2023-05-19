@@ -2617,7 +2617,8 @@ input, select, textarea {
 			box-shadow: none;
 			background-color: #8a2ea3;
 			color: #ffffff !important;
-			float: right
+			float: right;
+			margin-left: 1em
 		}
 
 			input[type="submit"].lang:hover,

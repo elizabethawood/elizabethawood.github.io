@@ -157,6 +157,10 @@ input, select, textarea {
 			color: #f2849e !important;
 		}
 
+	a.noclic {
+		pointer-events: none;
+	}	
+
 	strong, b {
 		font-weight: 900;
 	}
